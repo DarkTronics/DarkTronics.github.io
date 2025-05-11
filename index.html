@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">Xinwei Guo</div>
+    <div class="nav-links">
+      <a href="#main">Home</a>
+      <a href="#Education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#Projects">Projects</a>
+      <a href="#Personal Projects">Personal Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+      <!-- <button id="toggle-theme" class="theme-btn">🌙 Dark Mode</button> -->
+    </div>
+  </div>
+
+  <div class="main" id="main">
+    <div class="profile-pic">
+      <img src="pictures/myface.jpg" alt="Profile Picture"/>
+    </div>
+    <div class="Bio">
+      <h1>Xinwei Guo</h1>
+      <p>I'm currently Binghamton University masters student focusing on Artificial Intelligence and Robotics.</p>
+      <p>I'm passionate about using technology to solve real-world problems and am always eager to learn new skills and take on new challenges.</p>
+    </div>
+  </div>
+
+  <div class="Education Container" id="Education">
+    <h2 class="header">Education</h2>
+    <div class="education">
+      <h3>Binghamton University</h3>
+    <ul>
+      <li>
+        <p>Master of Science in Computer Science, Expected Graduation: May 2025</p>
+        <p><strong>Relevant Coursework:</strong> Machine Learning, Computer Vision, Robotics, Systems Programming</p>
+      </li>
+      <li>
+        <p>Bachelor of Science in Computer Science, Graduated: May 2024</p>
+        <p><strong>Relevant Coursework:</strong> Data Structures, Algorithms, Operating Systems, Computer Architecture</p>
+      </li>
+    </ul>
+  </div>
+
+<div class="Skills Container" id="skills">
+  <h2 class="header">Skills</h2>
+  <div class="skills-grid">
+    <div class="skill">
+      <h3>Programming Languages</h3>
+      <p>Python, C, C++, Java, JavaScript, HTML/CSS</p>
+    </div>
+    <div class="skill">
+      <h3>Frameworks and Libraries</h3>
+      <p>TensorFlow, PyTorch, OpenCV, React</p>
+    </div>
+    <div class="skill">
+      <h3>Tools and Technologies</h3>
+      <p>Git, Linux</p>
+    </div>
+
+    <!-- Add more skill as needed -->
+  </div>
+</div>
+
+  <div class="Projects Container" id="Projects">
+    <h2 class="header">School Projects</h2>
+    <div class="project">
+      <h3>Task And Motion Planning</h3>
+      <p>Based on the StretchAI code base. We created real-time semantic Sparse Voxel Mapping and scene graph for VLM-based task and motion planning.</p>
+    </div>
+    <div class="project">
+      <h3>PtychoFormer: Deep Learning Approach To Ptychographic Imaging</h3>
+      <p>Deep learning model to process diffraction patterns for phase and amplitude reconstruction based on the EPIE algorithm.</p>
+      <p>Original project from https://github.com/nakahatar111/PtychoFormer.</p>
+    </div>
+        <div class="project">
+        <h3>mysh: A Minimal Unix Shell</h3>
+        <p>mysh is a custom shell designed to offer basic Unix shell functionalities in an interactive environment. This project aims to provide a lightweight and user-friendly command-line interpreter that supports:</p>
+        <li> Command Execution: Running commands with arguments. </li>
+        <li>Background Execution: Using & to execute commands in the background.</li>
+        <li>Signal Handling: Managing signals like Ctrl+C, Ctrl+Z, and Ctrl+\ to ensure smooth user interactions.</li>
+        <li>Job Management: Providing a jobs command to display and manage active background processes.</li>
+        <li>History Command: Able to store previous command, search by index, and print them out.</li>
+        <p>The shell continuously accepts user input and provides feedback similar to traditional Unix shells.</p>
+      </div>
+  </div>
+
+<div class="PersonalProjects Container" id="Personal Projects">
+  <h2 class="header">Personal Projects</h2>
+  <div class="personal-projects-grid">
+    <div class="project-card">
+      <h3>EtchASketch</h3>
+      <p>A simple Etch A Sketch web app using HTML, CSS, and JavaScript.</p>
+    </div>
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>Personal website built with HTML, CSS, and JavaScript.</p>
+    </div>
+    <div class="project-card">
+      <h3>Weather App</h3>
+      <p>Weather forecast app using OpenWeatherMap API.</p>
+    </div>
+    <div class="project-card">
+      <h3>Rock Paper Scissor Game</h3>
+      <p>Simple rock paper scissors game.</p>
+    </div>
+<div class="project-card">
+  <h3>Flappy Bird Genetic AI</h3>
+  <p>
+    An AI that learns to play Flappy Bird using a neural network evolved by a genetic algorithm. Each bird is controlled by a PyTorch neural network, and over generations, the best performers are selected, crossed over, and mutated to improve performance—visualized live with Pygame.
+  </p>
+</div>
+    <!-- Add more project cards as needed -->
+  </div>
+</div>
+
+  <footer>
+    &copy; 2025 Xinwei Guo
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
