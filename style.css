@@ -76,6 +76,26 @@ body {
   min-width: 250px;
 }
 
+.social-links {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1.5rem;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.2s, filter 0.2s;
+  filter: grayscale(40%);
+}
+
+.social-icon:hover {
+  transform: scale(1.15);
+  filter: grayscale(0%);
+}
+
 .info {
   flex: 2;
   min-width: 250px;
